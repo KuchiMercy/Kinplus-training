@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinplus Technologies</title>
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <h3>KINPLUS TECHNOLOGIES</h3>
+      <nav id="nav-menu">
+        <span
+          class="material-icons-outlined header_close"
+          id="close-menu"
+          onclick="closeToggle()"
+          >close</span
+        >
+        <ul>
+          <li><a href="https://kinplusgroup.com/kinplus">HOME</a></li>
+          <li><a href="https://kinplusgroup.com/about">ABOUT</a></li>
+          <li><a href="https://kinplusgroup.com/training">TRAINING</a></li>
+          <li><a href="https://kinplusgroup.com/contact">CONTACT</a></li>
+          <li><a href="https://kinplusgroup.com/interns">INTERNSHIP</a></li>
+          <li><a href="https://kinplusgroup.com/it-siwes"> IT/SIWES</a></li>
+        </ul>
+      </nav>
+      <span
+        class="material-icons-outlined header_toggle"
+        id="toggle-menu"
+        onclick="openToggle()"
+        >menu</span
+      >
+    </div>
+
+    <!-- HEADER -->
+    <header>
+      <h1>Building Tech Leaders</h1>
+      <p>
+        Our training programs are structured according to industry knowledge
+        experts, <br />
+        creating opportunies for learners, students and youths in our society
+      </p>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <div class="main-link">
+        <a href="https://kinplusgroup.com/kinplus">Home</a> &#47;
+        <a href="#">Training</a>
+      </div>
+
+      <!-- FIRST CONTAINER -->
+      <!-- FIRST CARD -->
+      <div class="container">
+        <div class="content-section">
+          <div class="cards one">
+            <img src="images/software-platform.png" alt="" />
+            <h4>SOFTWARE DEVELOPMENT</h4>
+            <br />
+            <p class="para">
+              Looking forward to become a developer, transit into a career in
+              tech or simply boost your career path, we offer Software
+              develoment Programs across the three tracks: Front-End, Back-End
+              and FullStack.
+            </p>
+            <p class="price">Pricing</p>
+            <ul>
+              <li>0-1 month: NGN 30,000</li>
+              <li>2-3 months: NGN 60,000</li>
+              <li>4-6 months: NGN 110,000</li>
+            </ul>
+
+            <button class="open-button" onclick="openForm()">APPLY NOW</button>
+          </div>
+          <!-- SECOND CARD -->
+          <div class="cards two">
+            <img src="images/UiUx.jpg" alt="" class="UiUx" />
+            <h4>UI/UX DESIGN</h4>
+            <br />
+            <p class="para">
+              A magnificent UI goes beyond capturing the users attention,
+              creating outstanding UX, and building the business brand.Choose a
+              career path in ui/ux design to become a professional Product
+              designer using our training guidelines
+            </p>
+            <p class="price">Pricing</p>
+            <ul>
+              <li>0-1 month: NGN 25,000</li>
+              <li>2-3 months: NGN 55,000</li>
+              <li>4-6 months: NGN 100,000</li>
+            </ul>
+
+            <button class="open-button" onclick="openForm()">APPLY NOW</button>
+          </div>
+          <!-- THIRD CARD -->
+          <div class="cards three">
+            <img src="images/Graphics.jpg" alt="" class="Graphics" />
+            <h4>GRAPHICS DESIGN</h4>
+            <br />
+            <p class="para">
+              To better understand the meaning of graphic design, it is
+              important to be aware of the elements and principles that make up
+              design. Elements are used in conjunction or opposition with each
+              other to create visually striking and impactful designs.
+            </p>
+            <p class="price">Pricing</p>
+            <ul>
+              <li>0-1 month: NGN 25,000</li>
+              <li>2-3 months: NGN 50,000</li>
+              <li>4-6 months: NGN 90,000</li>
+            </ul>
+            <button class="open-button" onclick="openForm()">APPLY NOW</button>
+          </div>
+
+          <!-- SECOND CONTAINER -->
+          <!-- FOURTH CARD -->
+          <div class="cards four">
+            <img src="images/PMgt.png" alt="" class="PMgt" />
+            <h4>PROJECT MANAGEMENT</h4>
+            <br />
+            <p class="para">
+              Our Outlines include Project Management Techniques, Data Handling
+              and Decision Making, Project Analytics and Quality Management. At
+              the end of this programme You will be able to develop your
+              confidence in managing a team and executing projects of all sizes
+            </p>
+            <p class="price">Pricing</p>
+            <ul>
+              <li>0-1 month: NGN 30,000</li>
+              <li>2-3 months: NGN 60,000</li>
+              <li>4-6 months: NGN 110,000</li>
+            </ul>
+
+            <button class="open-button" onclick="openForm()">APPLY NOW</button>
+          </div>
+          <!-- FIFTH CARD -->
+          <div class="cards five">
+            <img src="images/Hardware.png" alt="" class="hardware" />
+            <h4>HARDWARE MAINTANCE & REPAIR</h4>
+            <br />
+            <p class="para">
+              Dive your way into learning how to identifying, troubleshooting
+              and resolving problems and issues in a faulty computer
+            </p>
+            <p class="price">Pricing</p>
+            <ul>
+              <li>0-1 month: NGN 20,000</li>
+              <li>2-3 months: NGN 50,000</li>
+              <li>4-6 months: NGN 90,000</li>
+            </ul>
+
+            <button class="open-button" onclick="openForm()">APPLY NOW</button>
+          </div>
+
+          <!-- SIXTH CARD -->
+          <div class="cards six">
+            <img src="images/Data-science.png" alt="" class="data" />
+            <h4>DATA SCIENCE/ ANALYSIS</h4>
+            <br />
+            <p class="para">
+              To better understand the meaning of Data Science/Analysis”, it
+              describes a series of techniques aimed at extracting relevant and
+              valuable information from extensive and diverse sets of data
+              gathered from different sources and varying in sizes. Apply to get
+              started
+            </p>
+            <p class="price">Pricing</p>
+            <ul>
+              <li>0-1 month: NGN 30,000</li>
+              <li>2-3 months: NGN 60,000</li>
+              <li>4-6 months: NGN 110,000</li>
+            </ul>
+
+            <button class="open-button" onclick="openForm()">APPLY NOW</button>
+          </div>
+
+          <!-- THIRD CONTAINER -->
+          <!-- SEVENTH CARD -->
+          <div class="cards seven">
+            <img src="images/IOT.jpg" alt="" class="iot" />
+            <h4>IoT AND IT AUTOMATION</h4>
+            <br />
+            <p class="para">
+              Learn your way into technologies designed to facilitate the users
+              life, automating specific processes, allowing remote control,
+              simplifying plant management, and generally optimizing the
+              management of the environment.
+            </p>
+            <p class="price">Pricing</p>
+            <ul>
+              <li>0-1 month: NGN 30,000</li>
+              <li>2-3 months: NGN 60,000</li>
+              <li>4-6 months: NGN 100,000</li>
+            </ul>
+            <button class="open-button" onclick="openForm()">APPLY NOW</button>
+          </div>
+
+          <!-- EIGHT CARD -->
+          <div class="cards eight">
+            <img src="images/cyber.png" alt="" class="cyber" />
+            <h4>CYBER SECURITY</h4>
+            <br />
+            <p class="para">
+              Learn and understand how to use technologies, processes and
+              controls to protect computers, servers, devices, electronic
+              systems, networks, programs and data from malicious cyber attacks.
+            </p>
+            <p class="price">Pricing</p>
+            <ul>
+              <li>0-1 month: NGN 30,000</li>
+              <li>2-3 months: NGN 60,000</li>
+              <li>4-6 months: NGN 110,000</li>
+            </ul>
+            <button class="open-button" onclick="openForm()">APPLY NOW</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FORM -->
+
+    <div class="form-popup" id="myForm">
+      <form name="myform" action="" method="" onsubmit="return validateEmail()" class="form-container">
+        <div class="form-content">
+          <div class="flex-heading">
+            <div><h1>Registration</h1></div>
+            <div>
+              <span
+                class="material-icons-outlined form_close"
+                id="close-form"
+                onclick="closeForm()"
+                >close</span
+              >
+            </div>
+          </div>
+
+          <br />
+
+          <label for="name">Full Name</label
+          ><span style="color: red; font-size: 12px">*</span> <br />
+          <input type="text" name="name" required /> <br />
+
+          <label for="email">Email</label
+          ><span style="color: red; font-size: 12px">*</span><br />
+          <input type="text" name="email" required />
+
+          <div class="flex-container">
+            <div class="flex-card">
+              <label for="date">Date of Birth</label
+              ><span style="color: red; font-size: 12px">*</span> <br />
+              <input type="date" name="date" required />
+            </div>
+            <div class="flex-card">
+              <label for="number">Mobile Number</label
+              ><span style="color: red; font-size: 12px">*</span> <br />
+              <input type="" name="number" required />
+            </div>
+          </div>
+
+          <div class="flex-container">
+            <div class="flex-card">
+              <label for="religion">Religion</label
+              ><span style="color: red; font-size: 12px; font-size: 12px"
+                >*</span
+              >
+              <br />
+              <div class="custom-select">
+                <select>
+                  <option value="0">Christianity</option>
+                  <option value="1">Islam</option>
+                  <option value="2">Traditional</option>
+                  <option value="3">Others</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="flex-card">
+              <label for="gender">Gender</label
+              ><span style="color: red; font-size: 12px">*</span> <br />
+              <select>
+                <option value="0">Male</option>
+                <option value="1">Female</option>
+              </select>
+            </div>
+          </div>
+
+          <br />
+
+          <label for="address">Address</label
+          ><span style="color: red; font-size: 12px">*</span> <br />
+          <input type="text" name="address" required />
+
+          <div class="flex-container">
+            <div class="flex-card">
+              <label for="track">Track</label
+              ><span style="color: red; font-size: 12px">*</span> <br />
+              <input
+                type="text"
+                name="track"
+                value=""
+                required
+              />
+            </div>
+            <div class="flex-card">
+              <label for="package">Package</label
+              ><span style="color: red; font-size: 12px">*</span> <br />
+              <div class="custom-select">
+                <select>
+                  <option value="0">0-1month</option>
+                  <option value="1">2-3months</option>
+                  <option value="2">4-6months</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <span style="color: red; font-size: 12px">*</span
+          ><span style="font-size: 12px">indicates required field</span>
+
+          <div class="button-flex">
+            <div class="button-card">
+              <button type="button" class="close-button" onclick="closeForm()">
+                CLOSE
+              </button>
+            </div>
+            <div class="button-card">
+              <button
+                type="submit"
+                class="submit-button"
+                onclick="submitForm()"
+              >
+                SUBMIT
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <div class="footer-card">
+            <img src="images/logo.png" alt="" class="logo" />
+            <p>
+              Kinplus Technologies is a software development company focused on
+              building scalable applications and software for businesses,
+              corporate organisations, and individuals.
+            </p>
+          </div>
+          <div class="footer-card">
+            <h6>LINKS</h6>
+            <br />
+            <ul>
+              <li><a href="https://kinplusgroup.com/kinplus">Homepage</a></li>
+              <li>
+                <a href="https://kinplusgroup.com/about">Know more about us</a>
+              </li>
+              <li>
+                <a href="https://kinplusgroup.com/training"
+                  >Our training programs</a
+                >
+              </li>
+              <li>
+                <a href="https://kinplusgroup.com/contact"
+                  >Know more about us</a
+                >
+              </li>
+              <li>
+                <a href="https://kinplusgroup.com/interns"
+                  >Internship programs</a
+                >
+              </li>
+              <li>
+                <a href="https://kinplusgroup.com/it-siwes">IT/SIWES program</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-card">
+            <h6>ADDRESS:</h6>
+            <p>
+              Top Floor, 68B Christore Building, Opp. Crunchies Restaurant,
+              Similoluwa, Ado Ekiti, Ekiti State, Nigeria. <br />
+              Email: help@kinplusgroup.com <br />
+              Phone: +2347069718643, +2348071572767
+            </p>
+            <br />
+            <ul>
+              <li>
+                <a href="https://chat.whatsapp.com/LLsPklfyuhg1h1atsaOH38"
+                  >Whatsapp</a
+                >
+              </li>
+              <li>
+                <a href="https://www.facebook.com/kinplustechnologies"
+                  >Facebook</a
+                >
+              </li>
+              <li><a href="mail to:help@kinplusgroup.com">Email</a></li>
+              <li><a href="https://t.me/+2347069718643">Telegram</a></li>
+              <li><a href="https://twitter.com/kinplustech">Twitter</a></li>
+              <li>
+                <a href="https://www.linkedin.com/company/kinplustechnologies"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        Copyright &copy 2023 Kinplus Technologies All Right Reserved.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
